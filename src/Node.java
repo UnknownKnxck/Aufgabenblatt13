@@ -4,8 +4,8 @@ public class Node<T extends Comparable<T>> {
 
     Node(T val) {
         this.value = val;
-        right = null;
-        left = null;
+        this.right = null;
+        this.left = null;
     }
 
     public T getValue() {
